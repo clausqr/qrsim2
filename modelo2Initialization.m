@@ -9,8 +9,9 @@ global CtrlParam;
 global IC;
 %%
 %
-% FlightFear parameters:
-% --fdm=network,localhost,5501,5502,5503 --fog-fastest --disable-clouds --in-air --enable-freeze --aircraft=QUADLSE
+% FlightFear run command:
+% ./fgfs --fdm=network,localhost,5501,5502,5503 --fog-fastest --disable-clouds --in-air --enable-freeze --aircraft=QUADLSE
+% 
 % postes [37.62607004 -122.38053271]
 
 
