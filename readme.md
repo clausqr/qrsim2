@@ -37,12 +37,12 @@ Almost all functionality is implemented in separate .m files for easy tweaking.
 ```bash
 simulink modelo2a.mdl  
 ```
-,  
+...  
 2. Start Flightgear with arguments to listen for network connections:  
 ```bash
 ./fgfs --fdm=network,localhost,5501,5502,5503 --fog-fastest --disable-clouds --in-air --enable-freeze --aircraft=QUADLSE  
 ```
-,  
+...  
 3. Fly  
 4. Tweak  
 5. goto 3  
