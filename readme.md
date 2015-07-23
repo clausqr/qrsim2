@@ -25,7 +25,7 @@ Global initialization is done with a callback hooked up on ModelInit, implemente
 
 ##Visualization with Flightgear
 
-The last block allows for Flightgear visualization, see [Flightgear-QUADLSE-Model](https://github.com/clausqr/Flightgear-QUADLSE-Model) for a nice UAV model to use with Flightgear
+The last block allows for Flightgear visualization, see [Flightgear-QUADLSE-Model](https://github.com/clausqr/Flightgear-QUADLSE-Model) for a nice UAV model to use with Flightgear. Otherwise it's straightforward. 
 
 ##Structure
 
@@ -42,3 +42,5 @@ simulink modelo2a.mdl
 ./fgfs --fdm=network,localhost,5501,5502,5503 --fog-fastest --disable-clouds --in-air --enable-freeze --aircraft=QUADLSE  
 ```  
 3. Fly  
+4. Tweak  
+5. goto 3  
