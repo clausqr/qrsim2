@@ -5,7 +5,7 @@ The aim of this simulator is to
 2. focus on the rigid body attitude control problem,  
 3. provide a nice way to visualize what's going on.  
 
-I used it on my thesis to test a global, robust, non-linear controller based on Lyapunov functions. This controller can to track any arbitrart desired orientation of the Quadrotor within a certain error bound, and the results provide a way to translate bounded measurement and navigation errors to final pointing accuracy errors, and also to obtain a bound on the tracking accuracy given the timestep used for the digital implementation of the continuous controller. If you want to find out more please have a look at my [thesis](http://psic.fi.uba.ar/Publicaciones/Tesis/Rosito/Rosito.pdf)!
+I used it on my thesis to test a global, robust, non-linear controller based on Lyapunov functions. This controller can to track any arbitrary desired orientation of the Quadrotor within a specified error bound, and the results provide a way to translate bounded measurement and navigation errors to final pointing accuracy errors, and also to obtain a bound on the tracking accuracy given the timestep used for the digital implementation of the continuous controller. If you want to find out more please have a look at my [thesis](http://psic.fi.uba.ar/Publicaciones/Tesis/Rosito/Rosito.pdf)!
 
 [![ScreenShot](https://github.com/clausqr/qrsim2/raw/master/clipWUM7wxO1uRY.png)](https://www.youtube.com/watch?v=WUM7wxO1uRY)
 
