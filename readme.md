@@ -13,9 +13,9 @@ I used it on my thesis to test a global, robust, non-linear controller based on 
 The modular approach allows for customization of the different blocks:
 ![ScreenShot](https://github.com/clausqr/qrsim2/raw/master/qrsim2-block-diagram.png)
 
-a. Command Source Block  
-b. Joystick Input  
-c. Rigid Body Dynamics (UAV model)  
+a. Command Generation Block / Joystick Input  
+b. Controller Block  
+c. Rigid Body Dynamics (UAV model) Block  
 d. Navigation/Measurement Block  
 e. Visualization Block  
 
