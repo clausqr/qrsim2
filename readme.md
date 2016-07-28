@@ -35,7 +35,7 @@ Almost all functionality is implemented in separate .m files for easy tweaking.
 
 1. Load with simulink:  
 ```bash
-simulink modelo2a.mdl  
+load_model('modelo2a.slx')
 ```
 ...  
 2. Start Flightgear with arguments to listen for network connections:  
